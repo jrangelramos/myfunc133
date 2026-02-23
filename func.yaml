@@ -1,10 +1,6 @@
 specVersion: 0.36.0
 name: myfunc133
 runtime: node
-registry: image-registry.openshift-image-registry.svc:5000/kafka
 created: 2026-02-18T17:17:27.651874571-03:00
 build:
   builder: s2i
-deploy:
-  namespace: kafka
-  image: image-registry.openshift-image-registry.svc:5000/kafka/myfunc133:latest
